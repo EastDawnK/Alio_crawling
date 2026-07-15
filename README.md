@@ -120,12 +120,6 @@ cd C:\CSE\인턴
 다음 명령으로 실행합니다.
 
 ```powershell
-python .\alio자동화.txt
-```
-
-파일 확장자를 `.py`로 바꾼 경우에는 다음과 같이 실행합니다.
-
-```powershell
 python .\alio자동화.py
 ```
 
@@ -153,7 +147,7 @@ python .\alio자동화.py
 
 ### 기관 목록 파일 경로
 
-`alio자동화.txt` 하단의 값을 변경합니다.
+`alio자동화.py` 하단의 값을 변경합니다.
 
 ```python
 txt_file = r"C:\ALIO_Data\알리오 공공기관 다운로드 리스트.txt"
@@ -281,5 +275,5 @@ python -m playwright install chromium
 
 ## 파일
 
-- `alio자동화.txt`: ALIO 크롤링 프로그램
+- `alio자동화.py`: ALIO 크롤링 프로그램
 - `README.md`: 설치 및 사용 설명서
